@@ -5,7 +5,7 @@
     <li>
       <% if user_signed_in? %>
         <p>
-        Author: <%= current_user.username %>
+        Author: <%= User.find(post.user_id).username %>
         </p>
       <% end %>
 
