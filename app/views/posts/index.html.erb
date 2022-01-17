@@ -3,6 +3,12 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
+      <% if user_signed_in? %>
+        <p>
+        Author: <%= current_user.username %>
+        </p>
+      <% end %>
+
       <%= post.title %>
     </li>
   <% end %>
