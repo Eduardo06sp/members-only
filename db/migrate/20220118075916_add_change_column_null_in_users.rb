@@ -1,5 +1,5 @@
 class AddChangeColumnNullInUsers < ActiveRecord::Migration[6.1]
   def change
-    change_column_null :User, :username, false
+    change_column_null :users, :username, false
   end
 end
