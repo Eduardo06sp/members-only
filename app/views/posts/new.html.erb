@@ -2,6 +2,7 @@
 <%= button_to 'Home', posts_path, method: :get %>
 
 <%= form_with model: @post do |form| %>
+  <%= render "devise/shared/error_messages", resource: @post %>
   <div>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
