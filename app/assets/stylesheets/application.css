@@ -18,3 +18,28 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 18px 10px;
+}
+
+header a:first-child {
+  width: 120px;
+}
+
+#logo {
+  width: 100%;
+}
+
+header a ~ a {
+  margin-left: 16px;
+  text-align: center;
+}
