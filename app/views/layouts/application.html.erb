@@ -22,6 +22,15 @@
       <a href="<%= root_path %>"><h1>Members Only!</h1></a>
     </header>
 
+    <nav>
+      <% if user_signed_in? %>
+        <%= button_to 'Log Out', destroy_user_session_path, method: :delete  %>
+      <% else %>
+        <%= button_to 'Log In', new_user_session_path, method: :get  %>
+        <%= button_to 'Sign Up', new_user_registration_path, method: :get %>
+      <% end %>
+    </nav>
+
     <% flash.each do |name, msg| %>
       <%= content_tag :p, msg, class: name %>
     <% end %>
