@@ -16,10 +16,10 @@
   <body>
 
     <header>
-      <a href="<% root_path %>">
+      <a href="<%= root_path %>">
         <%= image_tag 'odin.png', id: 'logo', alt: 'logo representing an odin (links to the home page)' %>
       </a>
-      <a href="<% root_path %>"><h1>Members Only!</h1></a>
+      <a href="<%= root_path %>"><h1>Members Only!</h1></a>
     </header>
 
     <% flash.each do |name, msg| %>
