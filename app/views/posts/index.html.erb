@@ -14,14 +14,15 @@
 <ul>
   <% @posts.each do |post| %>
     <li>
+      <p><%= post.title %></p>
+
       <% if user_signed_in? %>
         <p>
         Author: <%= User.find(post.user_id).username %>
         </p>
       <% end %>
 
-      <%= post.title %>
-      <%= post.body %>
+      <p><%= post.body %></p>
     </li>
   <% end %>
 </ul>
