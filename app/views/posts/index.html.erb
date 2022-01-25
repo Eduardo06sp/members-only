@@ -6,7 +6,7 @@
 
   <% @posts.each do |post| %>
     <article class="post">
-      <h3>Title: <%= post.title %></h3>
+      <h3><%= post.title %></h3>
 
       <% if user_signed_in? %>
         <p>
