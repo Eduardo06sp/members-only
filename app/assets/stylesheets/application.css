@@ -96,3 +96,15 @@ nav input {
   position: absolute;
   top: -9999px;
 }
+
+@media screen and (min-width: 580px) {
+  .posts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .post {
+    max-height: 30vw;
+    width: 40vw;
+  }
+}
