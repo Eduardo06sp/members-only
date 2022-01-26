@@ -4,6 +4,7 @@
 }
 
 .field, .actions {
+  align-items: center;
   display: flex;
   flex-direction: column;
   margin: 12px auto;
@@ -19,6 +20,7 @@
   border: 1px solid #ccc;
   font-size: 1.1em;
   height: 25px;
+  max-width: 43vw;
 }
 
 .post_body textarea {
@@ -29,7 +31,7 @@
 
 .actions {
   height: 30px;
-  width: 60vw;
+  max-width: 250px;
 }
 
 .actions input {
@@ -42,6 +44,7 @@
   align-items: center;
   flex-direction: row;
   gap: 3px;
+  justify-content: center;
 }
 
 .remember_me_field label {
