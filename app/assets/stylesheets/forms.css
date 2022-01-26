@@ -37,3 +37,17 @@
   height: 100%;
   width: 100%;
 }
+
+.remember_me_field {
+  align-items: center;
+  flex-direction: row;
+  gap: 3px;
+}
+
+.remember_me_field label {
+  margin-bottom: 0;
+}
+
+#user_remember_me {
+  width: 20px;
+}
