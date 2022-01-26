@@ -1,18 +1,18 @@
 <h2>New Post</h2>
 
-<%= form_with model: @post, id: "new_post_form" do |form| %>
+<%= form_with model: @post, class: "new_post" do |form| %>
   <%= render "devise/shared/error_messages", resource: @post %>
-  <div class="new-post-element">
+  <div class="field">
     <%= form.label :title %><br>
     <%= form.text_field :title %>
   </div>
 
-  <div class="new-post-element">
+  <div class="field post_body">
     <%= form.label :body %><br>
     <%= form.text_area :body %>
   </div>
 
-  <div class="new-post-element" id="post-submit-container">
+  <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>
