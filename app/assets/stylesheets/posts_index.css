@@ -43,3 +43,15 @@ h2 {
   margin: 12px auto;
   width: 30%;
 }
+
+footer a {
+  color: #393e41;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+footer a:active {
+  color: #7f8a91;
+}
