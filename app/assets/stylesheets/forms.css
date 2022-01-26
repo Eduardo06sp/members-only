@@ -33,6 +33,11 @@
   max-width: 250px;
 }
 
+.actions form {
+  height: 30px;
+  width: 260px;
+}
+
 .actions input {
   border: none;
   height: 100%;
