@@ -4,19 +4,21 @@
     <%= button_to 'Create New Post', new_post_path, method: :get %>
   <% end %>
 
-  <% @posts.each do |post| %>
-    <article class="post">
-      <h3><%= post.title %></h3>
+  <div class="posts-container">
+    <% @posts.each do |post| %>
+      <article class="post">
+        <h3><%= post.title %></h3>
 
-      <% if user_signed_in? %>
-        <p>
-        Author: <%= User.find(post.user_id).username %>
-        </p>
-      <% end %>
+        <% if user_signed_in? %>
+          <p>
+          Author: <%= User.find(post.user_id).username %>
+          </p>
+        <% end %>
 
-      <p class="post-content"><%= post.body %></p>
-    </article>
-  <% end %>
+        <p class="post-content"><%= post.body %></p>
+      </article>
+    <% end %>
+  </div>
 </section>
 
 <%= javascript_pack_tag 'posts_index' %>
