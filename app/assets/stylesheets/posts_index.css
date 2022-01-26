@@ -32,10 +32,6 @@ h2 {
   width: 70vw;
 }
 
-.post-expanded {
-  max-height: none;
-}
-
 .post-content {
   overflow: hidden;
 }

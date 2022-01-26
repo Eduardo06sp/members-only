@@ -108,3 +108,7 @@ nav input {
     width: 40vw;
   }
 }
+
+.post-expanded {
+  max-height: none;
+}
