@@ -10,8 +10,8 @@ h2 {
 
 .posts form {
   height: 30px;
-  margin: 0 auto;
-  width: 60%;
+  margin: 6px auto 0 auto;
+  max-width: 260px;
 }
 
 .posts input {
