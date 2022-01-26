@@ -65,3 +65,28 @@ nav input {
   height: 100%;
   width: 100%;
 }
+
+.flash {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  margin: 12px auto;
+  width: 90vw;
+}
+
+.flash .alert {
+  background-color: #ffb3b3;
+  padding: 5px;
+}
+
+.flash .notice {
+  background-color: #c7ffb3;
+  padding: 5px;
+}
+
+.hidden {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
