@@ -28,6 +28,15 @@ html {
   font-size: 14px;
 }
 
+body {
+  background-color: #d3d0cb;
+  color: #393e41;
+}
+
+input, button {
+  color: #393e41;
+}
+
 header {
   align-items: center;
   display: flex;
@@ -44,8 +53,14 @@ header a:first-child {
 }
 
 header a ~ a {
+  color: #393e41;
   margin-left: 16px;
   text-align: center;
+  text-decoration: none;
+}
+
+header a ~ a:active {
+  color: #7f8a91;
 }
 
 nav {
