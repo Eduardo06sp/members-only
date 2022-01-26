@@ -75,6 +75,10 @@ nav input {
   width: 90vw;
 }
 
+#error_explanation ul {
+  list-style-type: none;
+}
+
 .flash .alert, #error_explanation li {
   background-color: #ffb3b3;
   padding: 5px;
