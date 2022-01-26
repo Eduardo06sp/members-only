@@ -1,5 +1,5 @@
 # Members Only!
-![A screenshot displaying the website with pre-filled posts](https://i.postimg.cc/T3TGm5D1/Screenshot-from-2022-01-26-14-30-46.png "Site Home Page")
+![A screenshot displaying the website with pre-filled posts](https://i.postimg.cc/r8LRnfSR/Screenshot-from-2022-01-26-14-30-46.png "Site Home Page")
 > **Note:** Due to Herkou's aggressive sleep configuration for web dynos, initial load time may be longer than expected
 
 A place where registered users may post stories, but only registered users may view the author of each story.
