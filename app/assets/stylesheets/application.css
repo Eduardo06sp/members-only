@@ -120,6 +120,17 @@ nav input {
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .posts-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .post {
+    max-height: 30vw;
+    width: 20vw;
+  }
+}
+
 .post-expanded {
   max-height: none;
 }
