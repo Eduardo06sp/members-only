@@ -7,8 +7,8 @@
 A mobile-friendly website where registered users may post stories, but only registered users may view the author of each story.
 
 [Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
-You may use the test account credentials to log in:
-Username: `Test`
+You may use the test account credentials to log in:<br>
+Username: `Test`<br>
 Password: `123456`
 
 ## General Information
@@ -20,8 +20,8 @@ Excessively long posts are truncated using JavaScript, and can be expanded. The 
 
 ## Installing / Getting Started
 [Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
-You may use the test account credentials to log in:
-Username: `Test`
+You may use the test account credentials to log in:<br>
+Username: `Test`<br>
 Password: `123456`
 
 > Prerequisites:
