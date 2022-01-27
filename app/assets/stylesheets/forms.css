@@ -20,12 +20,14 @@
   font-size: 1.1em;
   height: 25px;
   max-width: 43vw;
+  padding: 0 4px;
 }
 
 .post_body textarea {
   border: 1px solid #ccc;
   font-size: 1.1em;
   height: 250px;
+  padding: 4px;
 }
 
 .actions {
