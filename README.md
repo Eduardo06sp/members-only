@@ -4,6 +4,8 @@
 
 A place where registered users may post stories, but only registered users may view the author of each story.
 
+[Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
+
 ## General Information
 Members Only is an exclusive clubhouse where club members can write posts. Other (registered) members may see the author of each post. Guests (those who are not logged in) may only see the posts, but not the author of each post.
 
@@ -12,6 +14,8 @@ The website is designed with a mobile-first approach, and as a result, will main
 Excessively long posts are truncated using JavaScript, and can be expanded. The user may toggle between the two states using the "See More"/"See Less" button.
 
 ## Installing / Getting Started
+[Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
+
 > Prerequisites:
 > * Ruby >= 2.7.2
 > * Rails >= 6.1.4.4
