@@ -150,6 +150,11 @@ nav input {
     max-height: 30vw;
     width: 20vw;
   }
+
+  .post_body textarea {
+    height: 370px;
+    width: 670px;
+  }
 }
 
 .post-expanded {
