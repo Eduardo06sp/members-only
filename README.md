@@ -22,7 +22,7 @@ Excessively long posts are truncated using JavaScript, and can be expanded. The 
 > * Bundler >= 2.1.4 (to install gem dependencies)
 
 ```console
-git clone
+git clone https://github.com/Eduardo06sp/members-only.git
 cd members-only/
 bin/rails server
 ```
