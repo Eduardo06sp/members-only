@@ -19,11 +19,13 @@ Excessively long posts are truncated using JavaScript, and can be expanded. The 
 > Prerequisites:
 > * Ruby >= 2.7.2
 > * Rails >= 6.1.4.4
-> * Bundler >= 2.1.4 (to install gem dependencies)
+> * Bundler >= 2.1.4
+> * PostgreSQL >= 13.5
 
 ```console
 git clone https://github.com/Eduardo06sp/members-only.git
 cd members-only/
+bundle install
 bin/rails server
 ```
 Then visit http://localhost:3000/ to view the project.
