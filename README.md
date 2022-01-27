@@ -2,7 +2,7 @@
 ![A screenshot displaying the website with pre-filled posts](https://i.postimg.cc/cLZWGt1Z/members-only-home.png "Site Home Page")
 > **Note:** Due to Herkou's aggressive sleep configuration for web dynos, initial load time may be longer than expected
 
-A place where registered users may post stories, but only registered users may view the author of each story.
+A website where registered users may post stories, but only registered users may view the author of each story.
 
 [Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
 
