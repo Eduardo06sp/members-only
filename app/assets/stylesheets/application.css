@@ -112,6 +112,12 @@ nav input {
   top: -9999px;
 }
 
+@media screen and (min-width: 420px) {
+  .post_body textarea {
+    width: 380px;
+  }
+}
+
 @media screen and (min-width: 580px) {
   .posts-container {
     display: grid;
