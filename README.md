@@ -7,6 +7,9 @@
 A mobile-friendly website where registered users may post stories, but only registered users may view the author of each story.
 
 [Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
+You may use the test account credentials to log in:
+Username: `Test`
+Password: `123456`
 
 ## General Information
 Members Only is an exclusive clubhouse where club members can write posts. Other (registered) members may see the author of each post. Guests (those who are not logged in) may only see the posts, but not the author of each post.
@@ -17,6 +20,9 @@ Excessively long posts are truncated using JavaScript, and can be expanded. The 
 
 ## Installing / Getting Started
 [Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
+You may use the test account credentials to log in:
+Username: `Test`
+Password: `123456`
 
 > Prerequisites:
 > * Ruby >= 2.7.2
