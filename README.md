@@ -3,7 +3,7 @@
 > **Note:** Due to Herkou's aggressive sleep configuration for web dynos, initial load time may be longer than expected.
 > **Warning:** As a result of allowing public, anonymous submissions, stories may contain inappropriate content. Feel free to use any method of contact listed at the bottom to report stories.
 
-A website where registered users may post stories, but only registered users may view the author of each story.
+A mobile-friendly website where registered users may post stories, but only registered users may view the author of each story.
 
 [Click here to view a live version in Heroku.](https://quiet-meadow-24874.herokuapp.com/)
 
@@ -36,6 +36,7 @@ Then visit http://localhost:3000/ to view the project.
 * Sign up
 * Recover forgotten password
 * Create new post
+* Responsive design
 
 ## Reporting Issues/Feedback/Contact
 Bug reports are greatly appreciated. You may create a new issue with a simple description of the problem, and any steps leading up to it.
