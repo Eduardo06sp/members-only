@@ -1,7 +1,7 @@
 # Members Only!
 ![A screenshot displaying the website with pre-filled posts](https://i.postimg.cc/cLZWGt1Z/members-only-home.png "Site Home Page")
 > **Note:** Due to Herkou's aggressive sleep configuration for web dynos, initial load time may be longer than expected.
-
+>
 > **Warning:** As a result of allowing public, anonymous submissions, stories may contain inappropriate content. Feel free to use any method of contact listed at the bottom to report stories.
 
 A mobile-friendly website where registered users may post stories, but only registered users may view the author of each story.
