@@ -43,7 +43,6 @@ Then visit http://localhost:3000/ to view the project.
 ## Features
 * Log in/out
 * Sign up
-* Recover forgotten password
 * Create new post
 * Responsive design
 
